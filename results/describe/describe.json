@@ -1,0 +1,181 @@
+{
+ "colonies_recordings": {
+  "baratheon": 141,
+  "dothrakib": 25,
+  "martell": 94,
+  "stark": 304,
+  "targaryen": 77
+ },
+ "contains_fallback": "skipped (24145 unmatched by prefix)",
+ "data_md5": "a2c5a9363e335d9849e635f78382edda",
+ "date_examples": [
+  "01-05-19",
+  "01-11-17",
+  "01-11-19",
+  "01-12-17",
+  "02-05-19",
+  "04-04-19",
+  "05-09-17",
+  "05-10-17",
+  "06-02-18",
+  "07-07-17"
+ ],
+ "date_formats": {
+  "99-99-99": 641
+ },
+ "dates_by_number_of_colonies_with_sc": {},
+ "decision": "LABEL_UNKNOWN",
+ "expected_md5": "a2c5a9363e335d9849e635f78382edda",
+ "experiments": {
+  "classification": 15,
+  "classification;stark epochs": 89,
+  "foster pups tracking": 54,
+  "foster pups tracking;single rat softchirps": 3,
+  "single rat softchirps": 245,
+  "single rat softchirps;baratheon epochs": 61,
+  "stark epochs": 174
+ },
+ "layout": {
+  "data *.csv": 2,
+  "data/baratheon/recordings *.npy": 142,
+  "data/baratheon/recordings *.txt": 142,
+  "data/baratheon/traces *.png": 4581,
+  "data/dothrakib/recordings *.npy": 25,
+  "data/dothrakib/recordings *.txt": 25,
+  "data/dothrakib/traces *.png": 530,
+  "data/martell/recordings *.npy": 94,
+  "data/martell/recordings *.txt": 94,
+  "data/martell/traces *.png": 1580,
+  "data/stark/recordings *.npy": 135,
+  "data/stark/recordings *.txt": 140,
+  "data/stark/traces *.png": 15686,
+  "data/targaryen/recordings *.npy": 77,
+  "data/targaryen/recordings *.txt": 77,
+  "data/targaryen/traces *.png": 1768
+ },
+ "metadata_columns": [
+  "colony",
+  "date",
+  "experiment",
+  "name",
+  "number",
+  "path",
+  "processing stage",
+  "ratids"
+ ],
+ "metadata_duplicate_names": 0,
+ "metadata_files": [
+  "data/recordings_metadata.csv"
+ ],
+ "metadata_names_with_recording_file": 472,
+ "metadata_rows": 641,
+ "per_colony": {
+  "baratheon": {
+   "n_dates_with_sc": 0,
+   "n_rats_with_sc": 0,
+   "n_recs": 141,
+   "n_sc": 0
+  },
+  "dothrakib": {
+   "n_dates_with_sc": 0,
+   "n_rats_with_sc": 0,
+   "n_recs": 25,
+   "n_sc": 0
+  },
+  "martell": {
+   "n_dates_with_sc": 0,
+   "n_rats_with_sc": 0,
+   "n_recs": 94,
+   "n_sc": 0
+  },
+  "stark": {
+   "n_dates_with_sc": 0,
+   "n_rats_with_sc": 0,
+   "n_recs": 304,
+   "n_sc": 0
+  },
+  "targaryen": {
+   "n_dates_with_sc": 0,
+   "n_rats_with_sc": 0,
+   "n_recs": 77,
+   "n_sc": 0
+  }
+ },
+ "rat_info": {
+  "colonies": {
+   "baratheon": 19,
+   "dothrakib": 25,
+   "martell": 15,
+   "stark": 18,
+   "targaryen": 19
+  },
+  "columns": [
+   "ID",
+   "colony",
+   "weight_1",
+   "weight_2",
+   "weight_3",
+   "weight_4",
+   "weight_5",
+   "weight",
+   "rank",
+   "sex",
+   "dob",
+   "body length",
+   "body length2"
+  ],
+  "file": "data/rat_info.csv",
+  "rows": 96
+ },
+ "ratids_examples": [
+  "0003",
+  "1222",
+  "1411",
+  "1472",
+  "1488",
+  "1520",
+  "1523",
+  "1536",
+  "1538",
+  "1540"
+ ],
+ "rats_on_2plus_dates": 0,
+ "rats_with_sc": 0,
+ "recording_files_in_zip": 951,
+ "shared_dates": {},
+ "soft_chirps_matched": 0,
+ "soft_chirps_on_shared_dates": 0,
+ "table_files": [
+  "data/rat_info.csv",
+  "data/recordings_metadata.csv"
+ ],
+ "table_files_n": 2,
+ "thresholds": {
+  "MIN_RATS_CELL": 2,
+  "MIN_SC_CELL": 50,
+  "MIN_SHARED_COLONIES": 4,
+  "MIN_SHARED_DATES": 3
+ },
+ "trace_files": 24145,
+ "trace_labels_all": {
+  "softchirp": 7823,
+  "sound": 16322
+ },
+ "trace_match": {
+  "none": 24145
+ },
+ "traces_with_times": 24145,
+ "unmatched_examples": [
+  "freshtrace_softchirp_0.0129_0.169389_baratheon_15-05-20_2097_0000006.png",
+  "freshtrace_softchirp_0.0213_0.148283_baratheon_11-04-20_2097_0000008.png",
+  "freshtrace_softchirp_0.1789_0.381592_baratheon_11-04-20_2131_0000022.png",
+  "freshtrace_softchirp_0.2912_0.446752_baratheon_15-05-20_2131_0000025.png",
+  "freshtrace_softchirp_0.3216_0.443960_baratheon_20-04-20_9440_0000030.png",
+  "freshtrace_softchirp_0.4023_0.628134_baratheon_11-04-20_2149_0000063.png",
+  "freshtrace_softchirp_0.6255_0.792232_baratheon_15-05-20_9460_0000015.png",
+  "freshtrace_softchirp_0.6269_0.760436_baratheon_11-04-20_9432_0000045.png",
+  "freshtrace_softchirp_0.6491_0.808465_baratheon_11-04-20_9449_0000031.png",
+  "freshtrace_softchirp_0.6955_0.859891_baratheon_11-04-20_2097_0000008.png"
+ ],
+ "zip_files": 25098
+}
